@@ -116,5 +116,3 @@ def get_poster(movie_url):
         if counter == 5:
             poster_url = poster_url + char
     return "https://image.tmdb.org" + poster_url
-
-print(get_movie("https://letterboxd.com/joeibanez/list/the-100-most-watched-films-on-letterboxd/by/shuffle/"))
